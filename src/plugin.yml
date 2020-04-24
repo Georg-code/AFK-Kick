@@ -1,0 +1,18 @@
+
+name: AFK-Kick
+version: 1.0
+author: Hohi
+description: §3AFK Kick Plugin!
+main: ch.derhohi.main.Main
+
+commands:
+  notafk:
+    description: §3Confirm that you are not AFK.
+    usage: /notafk
+  afkreload:
+    description: §3Reload Config
+    usage: /afkreload
+    permission: afk.reload
+
+
+

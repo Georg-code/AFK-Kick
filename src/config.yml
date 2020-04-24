@@ -1,0 +1,63 @@
+Config:
+  # Welcome to the Config!
+  # Here you can configure everything! You will find a short explanation for each setting.
+  # If you find bugs or have ideas, feel free to open an issue on Github.
+
+  # You can use color codes! You'll find them at the bottom of this config.
+
+  # The prefix is what is displayed before your messages. The prefix is displayed for the following messages:
+  # kick_warn_msg and kick_msg. If you do not want a prefix, set it to "".
+  prefix: "§8§l[§c§lAFK-KICK§8§l]"
+
+
+  # kick_msg is the kick reason
+  kick_msg: "§cYou got kicked because you were AFK"
+
+  # kick_warn_delay is how long it should take until the player gets a message
+  # that he is AFK If you don't want a message, set this to a higher number than kick_delay.
+  kick_warn_delay: 9 # (= minutes | full number - no comma)
+
+  # Message when the player is warned that he is Afk.
+  kick_warn_msg: "You're about to get kicked for AFK."
+
+  # Clickable message to confirm that you are not afk.
+  kick_warn_msg_afk: "§8[§aI'm not AFK§8]"
+
+  # How long can the player be afk until he gets kicked
+  kick_delay: 10 # (= minutes | full number - no comma)
+
+  kick_not_afk_msg: "You have successfully confirmed that you are not AFK"
+
+
+  # Play sound when the warning message comes (on/off)
+  sound_on_get_warn: true
+
+  # Play sound when the message warn message is confirmed (on/off)
+  sond_on_notafk: true
+
+  # Title of Config Reload page
+  config_values: "§3Config values"
+
+  # Reload Message
+  config_reload: "§aConfig successfully reloaded"
+
+  config_noperm: "No Permission"
+
+  # Colorcodes
+  # Dark Red = §4      |  Dark Blue = §1
+  # Red = §c           |  Blue = §9
+  # Gold = §6          |  Light Purple = §d
+  # Yellow = §e        |  Dark Purple = §5
+  # Dark Green = §2    |  White = §f
+  # Green = §a         |  Gray = §7
+  # Aqua = §b          |  Dark Gray = §8
+  # Dark Aqua = §3     |  Black = §0
+
+  # List of Format Codes
+
+  # Obfuscated = §k    | Underline = §n
+  # Bold = §l          | Italic = §o
+  # Strikethrough = §m | Reset all = §r
+
+
+
