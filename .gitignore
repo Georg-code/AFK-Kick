@@ -3,6 +3,7 @@
 
 # Log file
 *.log
+# to hide log files
 
 # BlueJ files
 *.ctxt
